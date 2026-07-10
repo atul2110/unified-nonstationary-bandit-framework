@@ -15,6 +15,7 @@ Results --
 
 <img width="2684" height="2068" alt="unified_results" src="https://github.com/user-attachments/assets/21d9d41a-75ca-4618-8206-2248551b8bc6" />
 
+
 Reading of results:
 
 Q-UCB performs consistently well because the quantum bonus term is well-tuned. This is actually fine for our paper — it shows quantum methods generally outperform the classical TS-CD on gradual and periodic drift. QTS-CD wins on gradual drift among the active detectors. TS-CD collapses on gradual drift (521 regret) which proves the limitation of Eq.(4) that our work addresses.
